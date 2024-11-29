@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+img{
+    width: 800px;
+    /* position: absolute; */
+    top: 80px;
+    right: 70px;
+}
+
+body {
+    background-color: #EC838A;
+}
+
+.caixa {
+    width: 90px;
+}
+
+
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+header a{
+    color: #e7b0b4;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+header{
+    height: 150px;
+    background-color:#8E151D;
+}
+
+
+.forms{
+    margin: 20px;
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* position: absolute ;
+    left: 0; */
+}
+
+form{
+    max-width: 500px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="Nome"], input[type="Email"], input[type="Cidade"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    background-color: red;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(158, 4, 4);
+}
+h1{
+    color: #e7b0b4;
+}
+.p1{
+    color:#e7b0b4;
+}
+.p2{
+    color: black;
+}
